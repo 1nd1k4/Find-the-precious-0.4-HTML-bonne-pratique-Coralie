@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Find The Precious</title>
+    <meta name="author" content="Coralie">
+    <meta name="description" content="04 - HTML : les bonnes pratiques exercice">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <h2>Find The Precious</h2>
+            <ul>
+                <li><a href="#">Follows</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+         <h2>Dangerous fellowship try to destroy the ring</h2>
+        <article>           
+            <h3>Orcs, Gobelins, Balrogs, prtotect your master Sauron!</h3>
+        </article>
+        <article>
+                <h3>Fellows wanted dead</h3>
+                <p>(or alive if you want eat them later)</p>  
+        </article>
+        <div class="Fellows">
+                <img class="Fellow_1_image" alt="Wizard picture" title="Wizard picture" src="http://placehold.jp/140x140.png">
+                <p class="reward">Reward 1000 coins</p>
+                <p class="name">The Wizard</p>
+                <p class="description">Small description ...</p>
+        </div>
+
+        <div class="Fellows">
+                <img class="Fellow_2_image" alt="Hobbit Picture" title="Hobbit picture" src="http://placehold.jp/140x140.png">
+                <p class="Statut">Dead</p>
+                <p class="name">Hobbit #3</p>
+                <p class="description">Small description ...</p>
+        </div>
+
+        <div class="Fellows">
+                <img class="Fellow_3_image" alt="yummy Dwarf picture" title="yummy Dwarf picture" src="http://placehold.jp/140x140.png">
+                <p class="reward">Reward 250 coins</p>
+                <p class="name">Yummy Dwarf</p>
+                <p class="description">Small description ...</p>
+        </div>
+
+    </section>
+    <section id="Contact">
+        <h1>Contact Us</h1>
+        <form action="contacts.php" method="post">
+            <div>
+                <label for="mail">e-mail :</label>
+                <input type="email" placeholder="@" name="user_email"/><br><br>
+            </div>
+            <div> 
+                <label for="Adresse">adresse :</label>
+                <input type="text" placeholder="Adresse" name="user_adress"/><br><br>
+            </div>
+            <div> 
+                <select name="info_position" id="info_position">
+                    <option value="0">I have seen one of them</option>
+                    <option value="1">I didn't seen one of them</option>
+                    <option value="2">sorry i eat them all Miam</option>
+                </select><br><br>
+            </div>   
+            <div>
+                <label for="message">Your message :</label>
+                <textarea id="message" placeholder="your message" name="user_message"></textarea><br><br>
+            </div>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+            
+        </form>                
+    </section>
+
+    <footer>
+            <div>
+                <a href="#">About us</a><br>
+                <a href="#">Fellows</a><br>
+                <a href="#">Join our army</a><br>
+                <a href="#">FAQ</a><br>
+                <a href="#">Reward conditions</a><br>
+                <a href="#">Legal mentions</a>
+            </div>
+            <div>
+                <a href="#">Sauron4Ever.com</a>
+                <p>Follow him also on <a href="#">Twitter</a></p>
+            </div>
+        </footer>
+  </body>
+</html>
